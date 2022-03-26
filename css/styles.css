@@ -37,7 +37,7 @@ body {
   display: block;
   width: 75%;
   height: auto;
-  border: solid 5px #25928d;
+  border: solid 3px #25928d;
 }
 
 .photo-container {
@@ -52,6 +52,10 @@ body {
 
 .col {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f1b825;
+}
+
+span {
   color: #f1b825;
 }
 
