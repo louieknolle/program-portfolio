@@ -77,3 +77,16 @@ dd {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
 }
+
+.d-block {
+  border-radius: 50%;
+  width: 40%;
+  height: auto;
+  border: solid 3px #25928d;
+  display: block;
+}
+
+.carousel {
+  width: 50%
+  height: auto;
+}
