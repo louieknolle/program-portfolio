@@ -1,10 +1,10 @@
 body {
-  background-color: #b3b3b3;
+  background-color: #d3d3d3;
 }
 
 .jumbotron {
   background-color: #25928d;
-  color: #b3b3b3;
+  color: #dddddd;
   margin-bottom: ;
   padding: 10px 20px;
   border-radius: 3%;
@@ -43,4 +43,24 @@ body {
 
 .row {
   clear: both;
+}
+
+.col {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f1b825;
+}
+
+li {
+  font-size: 18px;
+  color: #5988c5;
+}
+
+/* .col-sm-3:link {
+  color: #f1b825;
+} */
+
+dd {
+  color: #5988c5;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
 }
