@@ -1,24 +1,26 @@
+body {
+  background-color: #b3b3b3;
+}
+
 .jumbotron {
-  background-color: #1aa51a;
-  color: sandybrown;
+  background-color: #25928d;
+  color: #b3b3b3;
   margin-bottom: ;
   padding: 10px 20px;
+  border-radius: 3%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .nav-bar {
-  float: right;
+  float: left;
   margin-bottom: 30px;
-  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
 }
 
-/* .nav-background {
-  background-color: orange;
-  clear: both;
-} */
-
 .bar-item {
-  padding: 0 70px;
-  color: #1aa51a;
+  padding: 0 40px;
+  color: #25928d;
 }
 
 .bar-item:hover {
@@ -30,10 +32,15 @@
   display: block;
   width: 75%;
   height: auto;
+  border: solid 5px #25928d;
 }
 
 .photo-container {
   display: flex;
   justify-content: center;
   margin-top: 100px;
+}
+
+.row {
+  clear: both;
 }
