@@ -64,9 +64,13 @@ li {
   color: #5988c5;
 }
 
-/* .col-sm-3:link {
+dt.col-sm-3:hover a {
+  color: #25928d;
+}
+
+dt.col-sm-3:any-link {
   color: #f1b825;
-} */
+}
 
 dd {
   color: #5988c5;
