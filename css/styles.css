@@ -1,0 +1,39 @@
+.jumbotron {
+  background-color: #1aa51a;
+  color: sandybrown;
+  margin-bottom: ;
+  padding: 10px 20px;
+}
+
+.nav-bar {
+  float: right;
+  margin-bottom: 30px;
+  display: block;
+}
+
+/* .nav-background {
+  background-color: orange;
+  clear: both;
+} */
+
+.bar-item {
+  padding: 0 60px;
+  color: #1aa51a;
+}
+
+.bar-item:hover {
+  color: orange;
+}
+
+.cover-photo {
+  border-radius: 50%;
+  display: block;
+  width: 75%;
+  height: auto;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
