@@ -68,7 +68,7 @@ dt.col-sm-3:hover a {
   color: #25928d;
 }
 
-dt.col-sm-3:any-link {
+.proj-list {
   color: #f1b825;
 }
 
@@ -87,6 +87,7 @@ dd {
 }
 
 .carousel {
-  width: 50%
+  width: 50%;
   height: auto;
+  clear: both;
 }
