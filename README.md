@@ -28,6 +28,6 @@ _The website allows users to view coding projects I have created as well as lear
 
 ## License
 
-_Bootstrap_
+_MIT_
 
 Copyright (c) _2022_ _Louie Knolle_
