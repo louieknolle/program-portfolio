@@ -33,7 +33,7 @@ body {
 }
 
 .cover-photo {
-  border-radius: 50%;
+  border-radius: 60%;
   display: block;
   width: 75%;
   height: auto;
@@ -52,11 +52,11 @@ body {
 
 .col {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #f1b825;
+  color:#25928d;
 }
 
 span {
-  color: #f1b825;
+  color:#25928d;
 }
 
 li {
@@ -65,11 +65,12 @@ li {
 }
 
 dt.col-sm-3:hover a {
-  color: #25928d;
+  color:#f1b825;
+  text-decoration: none;
 }
 
 .proj-list {
-  color: #f1b825;
+  color:#25928d;
 }
 
 dd {
