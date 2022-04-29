@@ -32,7 +32,7 @@ body {
   text-decoration: none;
 }
 
-.cover-photo {
+.img-container {
   border-radius: 60%;
   display: block;
   width: 75%;
@@ -40,10 +40,27 @@ body {
   border: solid 3px #25928d;
 }
 
+.top-left-img {
+  width: 60%;
+  height: auto;
+  margin: 0;
+  display: inline-block;
+}
+
+.top-right-img {
+  width: 60%;
+  height: auto;
+  display: inline-block;
+}
+
+.bottom-img {
+  width: 60%;
+  height: auto;
+  margin: 0;
+}
+
 .photo-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
+  
 }
 
 .row {
