@@ -72,7 +72,7 @@ i {
   cursor: default;
 }
 
-.img-container {
+.photos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -83,13 +83,13 @@ i {
   margin: auto;
 }
 
-#about {
+/* #about {
   display: none;
 }
 
 #projects {
   display: none;
-}
+} */
 
 img {
   width: 50%;
