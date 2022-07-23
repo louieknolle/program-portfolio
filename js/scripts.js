@@ -13,6 +13,7 @@ homeTab.onclick = function() {
   homeImage.classList.remove("hidden");
   aboutTab.classList.remove("current-item");
   projectsTab.classList.remove("current-item");
+  homeTab.setAttribute("class", "current-item")
   projectsTab.setAttribute("class", "bar-item");
   aboutTab.setAttribute("class", "bar-item");
 }
