@@ -57,19 +57,20 @@ i {
 .current-item {
   color:#5988c5;
   text-decoration: overline;
-  cursor: default;
+  cursor: grabbing;
   padding: 0 20px;
 }
 
 .bar-item {
   padding: 0 20px;
   color: #25928d;
+  cursor: grab;
 }
 
 .bar-item:hover {
   color: #5988c5;
   text-decoration: overline;
-  cursor: default;
+  cursor: grab;
 }
 
 .photos {
