@@ -53,6 +53,7 @@ i {
 .current-item {
   color:#5988c5;
   text-decoration: overline;
+  cursor: default;
 }
 
 .bar-item {
@@ -63,6 +64,7 @@ i {
 .bar-item:hover {
   color: #5988c5;
   text-decoration: overline;
+  cursor: default;
 }
 
 .img-container {
@@ -74,6 +76,14 @@ i {
   border-radius: 60%;
   width: 60%;
   margin: auto;
+}
+
+#about {
+  display: none;
+}
+
+#projects {
+  display: none;
 }
 
 img {

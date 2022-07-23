@@ -22,16 +22,75 @@
   <div class="container">
     <div class="nav-background">
       <nav class="nav-bar">
-        <p class="current-item">Home</p>
-        <a href="about-me.html" class="bar-item">About</a>
-        <a href="projects.html" class="bar-item">Projects</a>
+        <p class="current-item" id="homeIcon">Home</p>
+        <p class="bar-item" id="aboutIcon">About</p>
+        <p class="bar-item" id="projectsIcon">Projects</p>
       </nav>
     </div>
+
     <div class="img-container">
       <img class="top-left-img" src="img/family.PNG" alt="man, woman and child sitting laughing">
       <img class="top-right-img" src="img/beach.JPEG" alt="person in hat on rocky beach">
       <img class="bottom-left-img" src="img/index-cover.jpg" alt="person on mountain summit">
       <img class="bottom-right-img" src="img/fromBack.jpg" alt="person facing away in woods">
+    </div>
+
+    <div id="about">
+      <div class="row row-cols-2">
+        <div class="col">
+          <h3>Education</h3>
+          <ul class="school">
+            <li>Epicodus Fullstack Coding Bootcamp Graduate 2022 <span>(hopefully!)</span></li>
+            <li>University of Cincinnati Class of 2014, B.S. Environmental Studies</li>
+            <li>Anderson High School Class of 2010</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Work Experience</h3>
+          <ul class="work">
+            <li>March 2020 to Present: Water Treatment Plant Operator, Town of Amherst, MA</li>
+            <li>April 2018 to March 2020: Land Management Steward, The Trustees of Reservations</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Hiking, backpacking and camping, either alone or with my family</li>
+            <li>Wildcrafting and Foraging</li>
+            <li>Reading</li>
+            <li>Learning as many plants IDs as I can remember</li>
+            <li>So that my page looks more even</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Interest in Coding</h3>
+          <ul>
+            <li>Always learning new things both in and out of work, programming will allow me to learn new things my whole career.</li>
+            <li>Can relate to finding tech overwhelming, would like to help keep people connected as life goes more and more online.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="projects">
+        <dl class="row">
+          <dt class="col-sm-3"><a href="https://github.com/louieknolle/vacation.git" class="proj-list">Vacation Site</a></dt>
+          <dd class="col-sm-9">Using the <em>Bootstrap</em> framework for the first time along with <em>HTML and CSS</em>, I created the homepage for site dedicated to Ireland, a place I'd like to visit someday.</dd>
+        
+          <dt class="col-sm-3"><a href="https://github.com/louieknolle/dog-blog.git" class="proj-list">Rosie's Dog Blog</a></dt>
+          <dd class="col-sm-9">
+            <p>A fictional blog for a puppy named Rosie, I used <em>HTML and CSS</em> for the layout in order to practice floats for the navigation bar, image of Rosie and one side bar.</p>
+          </dd>
+        
+          <dt class="col-sm-3"><a href="https://github.com/louieknolle/band-website.git" class="proj-list">Floating Cranes Band Website</a></dt>
+          <dd class="col-sm-9">Using <em>HTML and CSS</em>, my pair and I made the beginnings of a band website in order to practice floating the Tour Dates sidebar and guitar image. We also used this page to experiment with margin, padding and border.</dd>
+        
+          <dt class="col-sm-3 text-truncate"><a href="https://github.com/louieknolle/my-first-webpage.git" class="proj-list">First Webpage</a></dt>
+          <dd class="col-sm-9">This was one of the first practice projects we worked on as we learned about different <em>HTML</em> tags and basic styling techniques with <em>CSS</em>. </dd>
+    
+          <dt class="col-sm-3 text-truncate"><a href="https://github.com/louieknolle/boring-lecture.git" class="proj-list">Boring Lecture</a></dt>
+          <dd class="col-sm-9">This project used <em>HTML and CSS</em> to make an introduction to a boring lecture and was practice manipulating components of the box model.</dd>
+        </dl>
+      </div>
     </div>
   </div>
 </body>
