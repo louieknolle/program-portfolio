@@ -160,3 +160,17 @@ em {
 i {
   margin: auto;
 }
+
+@media (min-width: 30px) and (max-width: 322px) {
+  .photos {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 323px) and (max-width: 768px) {
+  .photos {
+    width: 80%;
+    margin: auto;
+  }
+}
