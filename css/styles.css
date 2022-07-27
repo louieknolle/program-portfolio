@@ -115,8 +115,12 @@ li {
   color: #5988c5;
 }
 
-dt.col-sm-3:hover a {
+a:hover {
   color:#f1b825;
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -140,4 +144,19 @@ dd {
 
 .hidden {
   display: none;
+}
+
+em {
+  font-weight: bold;
+}
+
+#about {
+  width: 80%;
+  font-size: 18px;
+  color:#25928d;
+  margin: auto;
+}
+
+i {
+  margin: auto;
 }
