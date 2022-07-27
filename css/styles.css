@@ -110,6 +110,10 @@ span {
   color:#25928d;
 }
 
+.about-body::first-line {
+  color: #5988c5;
+}
+
 li {
   font-size: 18px;
   color: #5988c5;
