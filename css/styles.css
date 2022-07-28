@@ -61,6 +61,11 @@ body {
   margin-bottom: auto;
 }
 
+.bioPic {
+  box-shadow: 0 0 8px 8px #3d3e3e inset;
+  border-radius: 30%;
+}
+
 
 i:hover {
   color:#27cec5;
@@ -85,7 +90,11 @@ span {
 }
 
 #projects {
+  margin-top: 10%;
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 10%;
+  color:#dddddd;
 }
 
 .about-body::first-line {
@@ -153,7 +162,7 @@ i {
 
 @media (min-width: 475px) and (max-width: 768px) {
   .aboutPhoto {
-    width: 70%;
+    width: 60%;
     margin: auto;
     margin-top: 15%;
     margin-bottom: 1rem;
