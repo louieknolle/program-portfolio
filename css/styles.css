@@ -142,16 +142,20 @@ i {
   margin: auto;
 }
 
-@media (min-width: 30px) and (max-width: 322px) {
-  .photos {
-    width: 90%;
+@media (min-width: 30px) and (max-width: 474px) {
+  .aboutPhoto {
+    width: 70%;
     margin: auto;
+    margin-top: 20%;
+    margin-bottom: 1rem;
   }
 }
 
-@media (min-width: 323px) and (max-width: 768px) {
-  .photos {
-    width: 80%;
+@media (min-width: 475px) and (max-width: 768px) {
+  .aboutPhoto {
+    width: 70%;
     margin: auto;
+    margin-top: 15%;
+    margin-bottom: 1rem;
   }
 }
