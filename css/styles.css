@@ -82,29 +82,33 @@ i {
   width: 100%;
 }
 
-.row {
-  clear: both;
-}
-
-span {
-  color:#25928d;
-}
-
 #projects {
   margin-top: 10%;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.2rem;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
   color:#dddddd;
-  border-bottom: #27cec5 .1rem solid;;
+  padding-bottom: 5%;
+  border-bottom: #27cec5 .1rem solid;
 }
+
+/* .firstProjectSection {
+  margin-bottom: 10%;
+} */
 
 .quotesGif {
   margin: auto;
 }
 
+.firstEdPhoto {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
 .row {
-  margin-bottom: 10%;
+  margin-top: 5%;
+
 }
 
 a {
