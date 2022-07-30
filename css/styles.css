@@ -35,8 +35,7 @@ body {
 .title {
   font-size: 1.2rem;
   /* margin-right: 2rem; */
-  align-self: flex-end;
-  justify-self: left;
+  padding-top: auto;
 }
 
 .header {
