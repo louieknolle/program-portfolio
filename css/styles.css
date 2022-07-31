@@ -36,6 +36,12 @@ body {
   border-top: #27cec5 .1rem solid;
 }
 
+.linkedLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .title {
   font-size: 1.2rem;
   margin-bottom: 0;
@@ -106,9 +112,6 @@ i {
   margin:auto;
 }
 
-/* .firstProjectSection {
-  margin-bottom: 10%;
-} */
 
 .quotesGif {
   margin: auto;
@@ -142,7 +145,6 @@ a:hover {
 
 .proj-list {
   color: #ffffff;
-  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.2rem;
 }
 
@@ -164,6 +166,13 @@ button {
   font-size: 1.2rem;
 }
 
+.fa-github {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2rem;
+}
+
+
+
 button:hover {
   background: #27cec5;
   color: #ffffff;
@@ -172,6 +181,8 @@ button:hover {
 button:active {
   border-top-color:#25928d;
   background: #25928d;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2rem;
 }
 
 .quotesGif {
