@@ -1,12 +1,12 @@
 html {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
   background-color:#3d3e3e;
   width: 90%;
   margin: auto;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #index-body {
@@ -53,7 +53,7 @@ body {
 
 #aboutContainer {
   margin-top: 15%;
-  font-family: 'Roboto Condensed', sans-serif;
+  
   font-size: 1.2rem;
   margin-bottom: 10%;
   color:#dddddd;
