@@ -38,12 +38,17 @@ body {
 
 .title {
   font-size: 1.2rem;
-  /* margin-right: 2rem; */
-  padding-top: auto;
+  margin-bottom: 0;
 }
 
-.header {
-  /* margin-right: 2rem; */
+#contactLinks {
+  display: flex;
+  justify-content:space-around;
+  width: 20%;
+}
+
+#contactLinks a {
+  display: inline-block;
 }
 
 #aboutContainer {
@@ -96,6 +101,11 @@ i {
   border-bottom: #27cec5 .1rem solid;
 }
 
+#projects img {
+  display: block;
+  margin:auto;
+}
+
 /* .firstProjectSection {
   margin-bottom: 10%;
 } */
@@ -103,6 +113,7 @@ i {
 .quotesGif {
   margin: auto;
   width: 80%;
+  display: block;
 }
 
 .firstEdPhoto {
