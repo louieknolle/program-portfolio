@@ -127,6 +127,10 @@ i {
   border: #25928d .1rem solid;
 }
 
+.earlySiteBox {
+  text-align: center;
+}
+
 .row {
   margin-top: 15%;
 }
