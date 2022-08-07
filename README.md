@@ -2,7 +2,7 @@
 
 #### By _**Louie Knolle**_
 
-#### _A simple website with a home page, an about me page, and a page with links to other projects with descriptions of each._
+#### _A simple static webpage with an About Me section, example projects with links to GH repos, and links to GH profile and LinkedIn profile in header._
 
 ## Technologies Used
 
