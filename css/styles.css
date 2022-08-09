@@ -77,7 +77,7 @@ body {
 }
 
 .bioPic {
-  box-shadow: 0 0 8px 8px #3d3e3e inset;
+  filter: drop-shadow(5px 5px 5px #666666);
   border-radius: 30%;
 }
 
@@ -118,6 +118,7 @@ i {
   margin: auto;
   width: 80%;
   display: block;
+  filter: drop-shadow(5px 5px 5px #666666);
 }
 
 .firstEdPhoto {
@@ -125,6 +126,7 @@ i {
   width: 80%;
   height: auto;
   border: #25928d .1rem solid;
+  filter: drop-shadow(5px 5px 5px #666666);
 }
 
 .earlySiteBox {
