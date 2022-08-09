@@ -34,6 +34,7 @@ body {
   padding-left: auto;
   border-bottom: #27cec5 .1rem solid;
   border-top: #27cec5 .1rem solid;
+  z-index: 1;
 }
 
 .linkedLink {
