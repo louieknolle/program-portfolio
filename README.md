@@ -13,7 +13,7 @@
 
 ## Description
 
-_The website allows users to view coding projects I have created as well as learn about me, the developer. From the Home page, you can select "About" from the top bar to read the "About Me" page and can also select the "Projects" link in the top bar to see a list of projects I have worked on, descriptions of them, and links to view their repositories on Github._
+_The website allows users to view coding projects I have created as well as learn about me, the developer. Originally had different pages for "About" and "Projects" sections, refactored to a Single Page Application. Soon I will be experimenting with adding React._
 
 ## Setup/Installation Requirements
 
@@ -21,12 +21,11 @@ _The website allows users to view coding projects I have created as well as lear
 * _Once the directory is open, select index.html_
 * _Choose which browser you want to open it in_
 
-_[Github-Pages-Link](https://louieknolle.github.io/program-portfolio)_
+_[Deployed Site](https://www.louieknolle.dev)_
 
 
 ## Known Bugs
-
-* _The picture on the home page is temporary, I couldn't link the Bootstrap JS correctly for the carousel of 3 different photos to work_
+_None_
 
 ## License
 

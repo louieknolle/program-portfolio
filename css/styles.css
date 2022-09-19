@@ -151,7 +151,7 @@ a:active {
   text-decoration: none;
   color: #ffffff;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 } 
 
 a:hover {
@@ -162,7 +162,7 @@ a:hover {
 
 .proj-list {
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .projTitle {
@@ -180,27 +180,27 @@ button {
   vertical-align: middle;
   margin-bottom: 2%;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .fa-github {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 
 
 button:hover {
-  background: #27cec5;
+  background: #25928d;
   color: #ffffff;
 }
 
-button:active {
+/* button:active {
   border-top-color:#25928d;
   background: #25928d;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.2rem;
-}
+} */
 
 .quotesGif {
   border: #25928d .1rem solid;
