@@ -37,6 +37,10 @@ body {
   z-index: 1;
 }
 
+p {
+  font-size: 1rem;
+}
+
 .linkedLink {
   display: flex;
   align-items: center;
@@ -99,6 +103,11 @@ i {
   width: 100%;
 }
 
+#projectTitle {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 #projects {
   margin-top: 10%;
   font-family: 'Roboto Condensed', sans-serif;
@@ -135,7 +144,7 @@ i {
 }
 
 .row {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 a:active {
