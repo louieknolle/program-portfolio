@@ -1,12 +1,12 @@
 html {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
-  background-color:#3d3e3e;
+  background-color: #3d3e3e;
   width: 90%;
   margin: auto;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #index-body {
@@ -16,7 +16,7 @@ body {
 }
 
 .jumbotron {
-  background-color:#373838;
+  background-color: #373838;
   color: #dddddd;
   position: fixed;
   top: 0;
@@ -24,16 +24,16 @@ body {
   width: 100%;
   height: auto;
   max-height: 340px;
-  overflow-y: auto; 
+  overflow-y: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   padding: 1rem;
   padding-right: auto;
   padding-left: auto;
-  border-bottom: #27cec5 .1rem solid;
-  border-top: #27cec5 .1rem solid;
+  border-bottom: #27cec5 0.1rem solid;
+  border-top: #27cec5 0.1rem solid;
   z-index: 1;
 }
 
@@ -54,7 +54,7 @@ p {
 
 #contactLinks {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   width: 20%;
 }
 
@@ -64,16 +64,16 @@ p {
 
 #aboutContainer {
   margin-top: 15%;
-  
+
   font-size: 1.2rem;
   margin-bottom: 10%;
-  color:#dddddd;
+  color: #dddddd;
 }
 
 .aboutBody {
   margin-top: auto;
   margin-bottom: auto;
-  border-bottom: #27cec5 .1rem solid;
+  border-bottom: #27cec5 0.1rem solid;
 }
 
 .aboutPhoto {
@@ -86,17 +86,16 @@ p {
   border-radius: 30%;
 }
 
-
 i:hover {
-  color:#27cec5;
+  color: #27cec5;
   transition: 1s;
   cursor: pointer;
 }
 
 i {
-  color: #AEC6CF;
+  color: #aec6cf;
   margin: auto;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .bioPic {
@@ -110,19 +109,18 @@ i {
 
 #projects {
   margin-top: 10%;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.2rem;
   margin-bottom: 20%;
-  color:#dddddd;
+  color: #dddddd;
   padding-bottom: 5%;
-  border-bottom: #27cec5 .1rem solid;
+  border-bottom: #27cec5 0.1rem solid;
 }
 
 #projects img {
   display: block;
-  margin:auto;
+  margin: auto;
 }
-
 
 .quotesGif {
   margin: auto;
@@ -135,12 +133,13 @@ i {
   margin: auto;
   width: 80%;
   height: auto;
-  border: #25928d .1rem solid;
+  border: #25928d 0.1rem solid;
   filter: drop-shadow(5px 5px 5px #666666);
 }
 
 .earlySiteBox {
   text-align: center;
+  padding: 0.78rem;
 }
 
 .row {
@@ -150,19 +149,17 @@ i {
 a:active {
   text-decoration: none;
   color: #ffffff;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
-} 
-
-a:hover {
-   color: #ffffff;
 }
 
-
+a:hover {
+  color: #ffffff;
+}
 
 .proj-list {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .projTitle {
@@ -179,20 +176,23 @@ button {
   text-decoration: none;
   vertical-align: middle;
   margin-bottom: 2%;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.5rem;
 }
 
 .fa-github {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
 }
-
-
 
 button:hover {
   background: #25928d;
   color: #ffffff;
+}
+
+img {
+  width: 80%;
+  height: auto;
 }
 
 /* button:active {
@@ -203,7 +203,7 @@ button:hover {
 } */
 
 .quotesGif {
-  border: #25928d .1rem solid;
+  border: #25928d 0.1rem solid;
 }
 
 @media (min-width: 30px) and (max-width: 474px) {
