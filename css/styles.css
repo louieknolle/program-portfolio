@@ -140,6 +140,15 @@ i {
 .earlySiteBox {
   text-align: center;
   padding: 0.78rem;
+  height: 100%;
+  position: relative; /* magic sauce II */
+}
+
+.trail-vid {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: static; /* magic sauce */
 }
 
 .row {
