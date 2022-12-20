@@ -85,6 +85,11 @@ p {
   border-radius: 30%;
 }
 
+iframe {
+  border: #25928d 0.1rem solid;
+  margin: auto;
+}
+
 i:hover {
   color: #27cec5;
   transition: 1s;
