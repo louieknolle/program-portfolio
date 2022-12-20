@@ -10,7 +10,6 @@ body {
 }
 
 #index-body {
-  background-image: url("img/index-cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -105,6 +104,7 @@ i {
 #projectTitle {
   padding-bottom: 0;
   margin-bottom: 0;
+  font-size: 2.5rem;
 }
 
 #projects {
@@ -137,22 +137,12 @@ i {
   filter: drop-shadow(5px 5px 5px #666666);
 }
 
-.earlySiteBox {
-  text-align: center;
-  padding: 0.78rem;
-  height: 100%;
-  position: relative; /* magic sauce II */
-}
-
-.trail-vid {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-  position: static; /* magic sauce */
-}
-
 .row {
   margin-top: 10%;
+}
+
+.col-md-6 {
+  margin-top: 5%;
 }
 
 a:active {
@@ -199,10 +189,36 @@ button:hover {
   color: #ffffff;
 }
 
-img {
-  width: 80%;
+.projectMedia {
+  width: 90%;
   height: auto;
+  border: #25928d 0.1rem solid;
 }
+
+/* .trailVideo {
+  position: static;
+  margin: auto;
+  width: 100%
+  height: 13.125rem;
+} */
+
+/* #iframeContainer {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) 
+}
+
+#responsiveIframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 56.25%;
+} */
 
 /* button:active {
   border-top-color:#25928d;
