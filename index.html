@@ -31,36 +31,50 @@
   <div class="container">
     <div id="aboutContainer" class="row">
       <div class="col-md-4 aboutPhoto">
-        <img class="bioPic" src="img/headshot.JPG" alt=" headshot of a bearded person smiling with mountains in the background over right shoulder">
+        <img class="bioPic" src="img/headshot2.jpg" alt=" headshot of a bearded person smiling with mountains in the background over right shoulder">
       </div>
       <div class="col-md-8 aboutBody">
-        <p class="aboutText">Hi there! I'm an easy-going and driven software developer looking for a full-stack or front-end position. I've completed a coding boot camp and had an internship, as well as some freelance work experience. Before I got into tech, I had a variety of different jobs, including backpacking guide, fruit picker, maple sugarer, tree farmer, and conservation land steward. All those experiences have taught me how to learn new skills quickly and effectively.  </p>
-        <p>I'm really excited about the potential for technology to make things more accessible and create a more just world. I'm particularly passionate about the intersection of sustainability, climate change, and tech.</p>
-        <div class="skills"><p>Currently experienced with:</p> <p>React ▫ Javascript ▫ jQuery ▫ Typescript </p><p>Node.js ▫ C# ▫ .NET ▫ ASP.NET Core MVC</p><p>MongoDB ▫ Express.js ▫ MySQL ▫ Entity Framework Core</p><p>RESTful APIs ▫ MSTest ▫ Jest</p></div>
+        <p class="aboutText">Hi there! I'm Louie, an easy-going, driven software developer looking for a frontend-focused full-stack position. I'm currently working two contract positions focused on React, Typescript, and GraphQL on the frontend and working with two different backends, one is Node.js and Typescript, and the other is Ruby on Rails.  With a work history filled with backpacking guiding, tree farming, tree care, and natural resource management, I have a proven track record of learning new skills.</p>
+        <p>
+          I love all things frontend and enjoy using different backend frameworks in React with Typescript. Some of my recent projects also include a hiking application using MongoDB with MapBox mapping library and a smart shopping list app with Firebase. In my current roles, I also use MySQL and PostgreSQL databases.</p>
+        <div class="skills"><p>Skills: React | TypeScript | GraphQL | Node | C# | .NET | SQL | NoSQL</p>
+
+          <p>Interested in learning more about my journey from backpack guiding and tree farming to software development and how I'd be the perfect newest addition to your engineering team?</p></div>
       </div>
     </div>
     <div id="projects" class="">
       <h2 class="text-center" id="projectTitle">Projects</h2>
       <div class="row firstProjectSection">
         <div class="col-md-6">
-          <p class="projTitle">Trailpanion Hiking App</p><p>React.js ▫ TailwindCSS ▫ Trail API and Mapbox GL JS ▫ MongoDB ▫ Node.js ▫ Express.js</p><p>Allows users to create an inventory of hiking/outdoors gear, create packing lists, and browse and save potential destinations.</p>
-          <a href="https://github.com/louieknolle/WorkingCapstoneTitle" target="_blank" ><button class="proj-list fab fa-github"> View repo</button>
-          </a>
+          <p class="projTitle">Artist Portfolio Site</p><p>React.js ▫ React Router ▫ Third-party Contact Form</p><p>Client portfolio website to showcase their art.  Page navigation with React Router and custom side scrolling functionality.</p>
+          <a href="https://www.andyknolle.com/" target="_blank" ><button class="proj-list fab fa-github"> View site</button></a>
         </div>
-        <div class="col-md-6 embed-responsive embed-responsive-16by9" id="iframeContainer">
-          <iframe width="90%" 
-          height="400px" class="embed-responsive-item" id="responsiveIframe" 
-            src="https://www.youtube.com/embed/EqQKB6dYgDM">
-          </iframe>
+        <div class="col-md-6">
+          <img src="img/andyportfolio2.png" class="projectMedia" alt="screenshot of artist portfolio site">
         </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="projTitle">Smart Shopping List App</p><p>React.js ▫ Javascript ▫ Firebase ▫ React Router ▫ Github Projects </p><p>Group project through the Collab Lab that tracks user's shopping habits and makes recommendations when it's time to purchase something new. Shopping lists stored in Firestore and deployed through Firebase.</p>
+          <a href="https://tcl52-smartshoppinglist.netlify.app/" target="_blank" ><button class="proj-list fab fa-github"> View site</button></a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/smartshopping.png" class="projectMedia" alt="screenshot of smart shopping list home page">
+        </div>
+    </div>
         <div class="row">
           <div class="col-md-6">
-            <p class="projTitle">Artist Portfolio Site</p><p>React.js ▫ React Router ▫ Third-party Contact Form</p><p>Client portfolio website to showcase their art.  Page navigation with React Router and custom side scrolling functionality.</p>
-            <a href="https://www.andyknolle.com/" target="_blank" ><button class="proj-list fab fa-github"> View site</button></a>
+            <p class="projTitle">Trailpanion Hiking App</p><p>React.js ▫ TailwindCSS ▫ Trail API and Mapbox GL JS ▫ MongoDB ▫ Node.js ▫ Express.js</p><p>Allows users to create an inventory of hiking/outdoors gear, create packing lists, and browse and save potential destinations.</p>
+            <a href="https://github.com/louieknolle/WorkingCapstoneTitle" target="_blank" ><button class="proj-list fab fa-github"> View repo</button>
+            </a>
           </div>
-          <div class="col-md-6">
-            <img src="img/andyportfolio.png" class="projectMedia" alt="screenshot of artist portfolio site">
+          <div class="col-md-6 embed-responsive embed-responsive-16by9" id="iframeContainer">
+            <iframe width="90%" 
+            height="400px" class="embed-responsive-item" id="responsiveIframe" 
+              src="https://www.youtube.com/embed/EqQKB6dYgDM">
+            </iframe>
           </div>
+          
       </div>
         <div class="row">
           <div class="col-md-6">
@@ -71,16 +85,8 @@
             <img src="img/quotesGameimproved.gif" class="projectMedia" alt="video of quiz question being answered and score screen displaying with confetti coming down from top of screen">
           </div>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <p class="projTitle">All Trails Lead to Roam</p><p>C# ▫ ASP.Core MVC ▫ Razor ▫ Esri ArcGIS API ▫ Entity Framework ▫ MySQL</p><p>Bootcamp team week project where users could search for trails from a custom ASP.NET Core Web API. Users could also click on map and geocoding allowed them so save that point.</p>
-          <a href="https://github.com/louieknolle/Trails.Solution" target="_blank" ><button class="proj-list fab fa-github"> View repo</button></a>
-        </div>
-        <div class="col-md-6">
-          <img src="img/trailsToRoam.png" class="projectMedia" alt="screenshot of trails to roam home page">
-        </div>
-    </div>
-    </div>
+      
+    
 
   </div>
   <script src="js/scripts.js"></script>
